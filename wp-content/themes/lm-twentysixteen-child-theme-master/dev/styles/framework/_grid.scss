@@ -1,0 +1,374 @@
+$column: 8.33%;
+
+.columns {
+	float: left;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+// xs, sm, md, lg, xl 
+// min widths are defined in global styles
+
+// XSmall devices
+
+.shell {
+	width: 100%;
+	margin: 0 auto; 
+}
+
+.one.columns,
+.xs-one.columns {
+	width: $column - 4;
+	padding: 2%;
+}
+
+.two.columns,
+.xs-two.columns {
+	width: $column * 2 - 4;
+	padding: 2%;
+}
+
+.three.columns,
+.xs-three.columns {
+	width: $column * 3 - 4;
+	padding: 2%;
+}
+
+.four.columns,
+.xs-four.columns {
+	width: $column * 4 - 4;
+	padding: 2%;
+}
+
+.five.columns,
+.xs-five.columns {
+	width: $column * 5 - 4;
+	padding: 2%;
+}
+
+.six.columns,
+.xs-six.columns {
+	width: $column * 6 - 4;
+	padding: 2%;
+}
+
+.seven.columns,
+.xs-seven.columns {
+	width: $column * 7 - 4;
+	padding: 2%;
+}
+
+.eight.columns,
+.xs-eight.columns {
+	width: $column * 8 - 4;
+	padding: 2%;
+}
+
+.nine.columns,
+.xs-nine.columns {
+	width: $column * 9 - 4;
+	padding: 2%;
+}
+
+.ten.columns,
+.xs-ten.columns {
+	width: $column * 10 - 4;
+	padding: 2%;
+}
+
+.eleven.columns,
+.xs-eleven.columns {
+	width: $column * 11 - 4;
+	padding: 2%;
+}
+
+.twelve.columns,
+.xs-twelve.columns {
+	width: $column * 12 - 4;
+	padding: 2%;
+}
+
+
+// Small devices
+@media (min-width: $sm-min-width) {
+	.shell {
+		width: 100%;
+		margin: 0 auto; 
+	}
+
+	.sm-one.columns {
+		width: $column - 4;
+		padding: 2%;
+	}
+
+	.sm-two.columns {
+		width: $column * 2 - 4;
+		padding: 2%;
+	}
+
+	.sm-three.columns {
+		width: $column * 3 - 4;
+		padding: 2%;
+	}
+
+	.sm-four.columns {
+		width: $column * 4 - 4;
+		padding: 2%;
+	}
+
+	.sm-five.columns {
+		width: $column * 5 - 4;
+		padding: 2%;
+	}
+
+	.sm-six.columns {
+		width: $column * 6 - 4;
+		padding: 2%;
+	}
+
+	.sm-seven.columns {
+		width: $column * 7 - 4;
+		padding: 2%;
+	}
+
+	.sm-eight.columns {
+		width: $column * 8 - 4;
+		padding: 2%;
+	}
+
+	.sm-nine.columns {
+		width: $column * 9 - 4;
+		padding: 2%;
+	}
+
+	.sm-ten.columns {
+		width: $column * 10 - 4;
+		padding: 2%;
+	}
+
+	.sm-eleven.columns {
+		width: $column * 11 - 4;
+		padding: 2%;
+	}
+
+	.sm-twelve.columns {
+		width: $column * 12 - 4;
+		padding: 2%;
+	}
+
+}
+
+// Medium devices
+@media (min-width: $md-min-width) {
+	.equal-vert-height-container .shell {
+		display: flex;
+		align-items: stretch;
+	}
+
+	.shell {
+		width: 760px;
+		margin: 0 auto; 
+	}
+
+	.md-one.columns {
+		width: $column - 4;
+		padding: 2%;
+	}
+
+	.md-two.columns {
+		width: $column * 2 - 4;
+		padding: 2%;
+	}
+
+	.md-three.columns {
+		width: $column * 3 - 4;
+		padding: 2%;
+	}
+
+	.md-four.columns {
+		width: $column * 4 - 4;
+		padding: 2%;
+	}
+
+	.md-five.columns {
+		width: $column * 5 - 4;
+		padding: 2%;
+	}
+
+	.md-six.columns {
+		width: $column * 6 - 4;
+		padding: 2%;
+	}
+
+	.md-seven.columns {
+		width: $column * 7 - 4;
+		padding: 2%;
+	}
+
+	.md-eight.columns {
+		width: $column * 8 - 4;
+		padding: 2%;
+	}
+
+	.md-nine.columns {
+		width: $column * 9 - 4;
+		padding: 2%;
+	}
+
+	.md-ten.columns {
+		width: $column * 10 - 4;
+		padding: 2%;
+	}
+
+	.md-eleven.columns {
+		width: $column * 11 - 4;
+		padding: 2%;
+	}
+
+	.md-twelve.columns {
+		width: $column * 12 - 4;
+		padding: 2%;
+	}
+
+}
+
+// Large devices
+@media (min-width: $lg-min-width) {
+
+	.shell {
+		width: 960px;
+		margin: 0 auto; 
+	}
+
+	.lg-one.columns {
+		width: $column - 4;
+		padding: 2%;
+	}
+
+	.lg-two.columns {
+		width: $column * 2 - 4;
+		padding: 2%;
+	}
+
+	.lg-three.columns {
+		width: $column * 3 - 4;
+		padding: 2%;
+	}
+
+	.lg-four.columns {
+		width: $column * 4 - 4;
+		padding: 2%;
+	}
+
+	.lg-five.columns {
+		width: $column * 5 - 4;
+		padding: 2%;
+	}
+
+	.lg-six.columns {
+		width: $column * 6 - 4;
+		padding: 2%;
+	}
+
+	.lg-seven.columns {
+		width: $column * 7 - 4;
+		padding: 2%;
+	}
+
+	.lg-eight.columns {
+		width: $column * 8 - 4;
+		padding: 2%;
+	}
+
+	.lg-nine.columns {
+		width: $column * 9 - 4;
+		padding: 2%;
+	}
+
+	.lg-ten.columns {
+		width: $column * 10 - 4;
+		padding: 2%;
+	}
+
+	.lg-eleven.columns {
+		width: $column * 11 - 4;
+		padding: 2%;
+	}
+
+	.lg-twelve.columns {
+		width: $column * 12 - 4;
+		padding: 2%;
+	}
+}
+
+// Extra Large devices
+@media (min-width: $xl-min-width) {
+
+	.shell {
+		width: 1260px;
+		margin: 0 auto; 
+	}
+
+	.xl-one.columns {
+		width: $column - 4;
+		padding: 2%;
+	}
+
+	.xl-two.columns {
+		width: $column * 2 - 4;
+		padding: 2%;
+	}
+
+	.xl-three.columns {
+		width: $column * 3 - 4;
+		padding: 2%;
+	}
+
+	.xl-four.columns {
+		width: $column * 4 - 4;
+		padding: 2%;
+	}
+
+	.xl-five.columns {
+		width: $column * 5 - 4;
+		padding: 2%;
+	}
+
+	.xl-six.columns {
+		width: $column * 6 - 4;
+		padding: 2%;
+	}
+
+	.xl-seven.columns {
+		width: $column * 7 - 4;
+		padding: 2%;
+	}
+
+	.xl-eight.columns {
+		width: $column * 8 - 4;
+		padding: 2%;
+	}
+
+	.xl-nine.columns {
+		width: $column * 9 - 4;
+		padding: 2%;
+	}
+
+	.xl-ten.columns {
+		width: $column * 10 - 4;
+		padding: 2%;
+	}
+
+	.xl-eleven.columns {
+		width: $column * 11 - 4;
+		padding: 2%;
+	}
+
+	.xl-twelve.columns {
+		width: $column * 12 - 4;
+		padding: 2%;
+	}
+
+}
